@@ -1,29 +1,45 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autos Deportivos</title>
-    <link rel="stylesheet" href="estilos.css">
 </head>
+
+<link rel="stylesheet" href="estilos.css">
+<link rel="stylesheet" href="pruebas.css">
+
 <body>
-    <h1>PRUEBAS</h1>
-    <h2>Bienvenidos</h2>
+    <header>
+        <h1>PRUEBAS</h1>
+    </header>
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-       Conduce el auto de tus sueños, siente la velocidad y la adrenalina.</p>
+    <article>
+        <div id="titulo">
+            <h1 class="titulo">Bienvenidos</h1>
+        </div>
 
-    <p class="rojo">Los autos deportivos son símbolo de potencia, diseño 
-       y lujo. Aquí verás algunos de los más impresionantes del mundo.</p>
+        <div class="contenido">
+            <p class="texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Conduce el auto de tus sueños y siente la velocidad en cada curva.
+            </p>
 
-    <div class="contenedor">
-        <img src="auto1.jpg" alt="Auto deportivo rojo">
-        <p>Este es un Ferrari rojo, ícono de velocidad y elegancia.</p>
-    </div>
+            <p class="texto" id="especial">Los autos deportivos son símbolo de potencia, diseño 
+                y lujo. Aquí verás algunos de los más impresionantes del mundo.
+            </p>
+        </div>
 
-    <div class="galeria">
-        <img src="auto1.jpg" alt="Ferrari">
-        <img src="auto2.jpg" alt="Lamborghini">
-        <img src="auto3.jpg" alt="Porsche">
-    </div>
+        <div class="contenedor">
+            <img src="auto1.jpg" alt="Ferrari" />
+            <p class="descripcion">Ferrari rojo: un clásico de velocidad y elegancia.</p>
+        </div>
+
+        <div class="contenedor-float">
+            <img src="auto1.jpg" alt="Ferrari">
+            <img src="auto2.jpg" alt="Lamborghini">
+            <img src="auto3.jpg" alt="Porsche">
+        </div>
+    </article>
 </body>
 </html>
+
