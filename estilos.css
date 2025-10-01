@@ -1,3 +1,4 @@
+/* ===== Estilos generales ===== */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -37,6 +38,7 @@ h1 {
     font-weight: bold;
 }
 
+/* ===== Contenedor único de Auto 1 ===== */
 .contenedor {
     width: 320px;
     margin: 20px auto;
@@ -58,3 +60,22 @@ h1 {
     color: #555;
 }
 
+/* ===== Contenedor con Auto 1, 2 y 3 ===== */
+.contenedor-multiple {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px auto;
+}
+
+.contenedor-multiple img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+
+.contenedor-multiple img:hover {
+    transform: scale(1.1);
+}
